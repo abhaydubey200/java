@@ -1,3 +1,4 @@
+import java.util.Scanner;
 // import java.util.HashMap;
 
 // public class method {
@@ -33,15 +34,73 @@
 // }
 
 
-public class method {
-            static void mymethod(){
-                System.out.println("hello i am abhay");
-            }
-    public static void main(String[] args) {
-        mymethod();
-        mymethod();
-        mymethod();
-        mymethod();
+// public class method {
+//             static void mymethod(){
+//                 System.out.println("hello i am abhay");
+//             }
+//     public static void main(String[] args) {
+//         mymethod();
+//         mymethod();
+//         mymethod();
+//         mymethod();
         
+//     }
+// }
+
+// public class method {
+
+//     static void mymethod(){
+//         int x=90;
+//         int y=80;
+//         System.out.println(x+y);
+//     }
+//     public static void main(String[] args) {
+//         mymethod();
+//     }
+// }
+
+// public class method {
+//     static void mymethod(){
+//         int x;
+//         int y;
+        
+//         System.out.println("hello");
+// }
+//     public static void main(String[] args) {
+    
+//     Scanner myObj = new Scanner(System.in);  
+//     System.out.println("enter a number");
+//     int x = myObj.nextInt();  
+//     System.out.println("enter a number");
+//     int y = myObj.nextInt(); 
+//     int sum =x+y;
+    
+
+//     mymethod();
+    
+// }
+// }
+
+
+// public class method {
+//     static void myMethod(String fname, int age) {
+//       System.out.println(fname + " is " + age);
+//     }
+  
+//     public static void main(String[] args) {
+//       myMethod("Abhay", 20);
+//       myMethod("adi", 21);
+//       myMethod("uday", 22);
+//     }
+//   }
+
+
+public class method {
+
+    static void myMethod(String name , int age){
+        System.out.println(name+"is"+age);
+    }
+    public static void main(String[] args) {
+        myMethod("abhay", 20);
     }
 }
